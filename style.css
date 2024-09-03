@@ -1,0 +1,741 @@
+/* Default code Starts here */
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    background-color: #f0f8ff;
+    font-family: "Nunito", sans-serif;
+} */
+
+/* html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+} */
+
+/* h1,
+h2,
+h3,
+h4,
+h6,
+p {
+    margin-bottom: 1rem;
+} */
+
+/* input,
+textarea,
+button {
+    font-family: inherit;
+    margin-bottom: 1rem;
+} */
+
+/* img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 1rem;
+} */
+
+/* :root {
+    --primaryColor: #be9c79;
+    --secondaryColor: #660600;
+    --darkColor: #330300;
+    --lightColor: #ff0f00;
+    --regularFont: 1.6rem;
+    --headingFont: 54px;
+    --ffPrimary: "Nunito", sans-serif;
+    --ffSecondary: "Merienda", cursive;
+} */
+
+/* Default code Ends here */
+
+/* Project standard classes Starts */
+/* .align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 3rem;
+} */
+
+/* .componentSpacing {
+    padding: 3rem 0;
+} */
+
+/* .minipad {
+    padding: 1rem;
+} */
+
+/* Project standard classes Ends */
+
+/*::: PARENT CONTAINER CODE STARTS HERE::: */
+
+header,
+main,
+footer {
+    width: 100%;
+    height: auto;
+}
+
+/*::: PARENT CONTAINER CODE ENDS HERE::: */
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.dflex-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.dflex-col-start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+}
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+.heroimage{
+    background-image: url(./assets/vector.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 50rem;
+}
+.info{
+    margin-left: 11rem;
+    margin-top: 1.5rem;
+}
+
+.headerText img {
+    height: 2rem;
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+}
+.icons i{
+    padding:1rem 1rem;
+}
+
+.start-project a {
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    margin-left: 3rem;
+    margin-right: 1rem;
+}
+.start-project a i{
+    margin-left: 1.5rem;
+    color: white;
+}
+
+
+/* Hero Section */
+
+.heroContent h1 {
+    font-size: 4.025rem;
+    color: #02b1af;
+    margin-bottom: 4rem;
+    font-family: Roboto sans-serif;
+}
+
+.heroContent p {
+    font-size: 1.5rem;
+    color: black;
+    font-family: Roboto sans-serif;
+    margin-bottom: 6rem;
+}
+
+.heroContent .buttons .btn {
+    background-color: #ff6600;
+    text-decoration: none;
+    font-family: source Sans Pro,sans-serif;
+    font-size: 1.2rem
+}
+
+.heroContent{ 
+    margin-left: 4rem;
+    /* margin-bottom: 15rem; */
+    padding: 1rem 1rem;
+    margin-top: 10rem;
+    /* box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset; */
+}
+.heroimage img{
+    height: 23rem;
+    margin-top: 15rem;
+    margin-left: 10rem;
+}
+/* Expert Section */
+
+.expertText{
+   margin-top: 10rem;
+}
+
+.icon1 i {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    color: #ff6600;
+}
+.content1 h4{
+    font-size: 1.6rem;
+}
+
+.content1 p {
+   font-size: 1.1rem;
+   font-family: Roboto sans-serif;
+}
+.icon2 i {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    color: #ff6600;
+}
+.content2 h4{
+    font-size: 1.6rem;
+}
+
+.content2 p {
+   font-size: 1.1rem;
+   font-family: Roboto sans-serif;
+}
+.icon3 i {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    color: #ff6600;
+}
+.content3 h4{
+    font-size: 1.6rem;
+}
+
+.content3 p {
+   font-size: 1.1rem;
+   font-family: Roboto sans-serif;
+}
+
+/* About Us Section */
+.contentimage img {
+    height: 20rem;
+    width: auto;
+    margin-top: 15rem;
+}
+ .contentimage img{
+    background-image:url(./assets/section2-vector-layer1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+} 
+.abouttext{
+    margin-bottom: 20rem;
+    margin-right: 10rem;
+    margin-top: 15rem;
+}
+.abouttext h1 {
+    text-align: center;
+    color: #02b1af;
+    font-size: 1.6rem;
+    font-family: Roboto sans-serif;
+    margin-left: 5rem;
+}
+
+.abouttext h3 {
+    text-align: center;
+    font-family: Roboto sans-serif;
+    font-size: 1rem;
+    margin-left: 5rem;
+}
+
+.abouttext p{
+    text-align: center;
+    font-family: Roboto sans-serif;
+    font-size: 1rem;
+    margin-left: 5rem;
+}
+ .signature img{ 
+    height: 4rem;
+} 
+.signature h2{
+    font-size: 1rem;
+    font-family: Roboto sans-serif;
+}
+
+.ourexcellenceContainer {
+  background-image: url(./assets/section-bgimage1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.ourexcellenceText h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: Roboto sans-serif;
+    color: white;
+}
+
+.ourexcellenceText p {
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: Roboto sans-serif;
+    color: white;
+}
+.ourexcellence h3{
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: Roboto sans-serif;
+}
+.stat1 h3{
+    font-family: kanit sans-serif;
+    font-size: 4.5rem;
+}
+.stat1 p{
+    font-family: "source" Sans Pro, sans-serif;
+    font-size: 1.5rem;
+}
+.stat2 h3{
+    font-family: kanit sans-serif;
+    font-size: 4.5rem;
+}
+.stat2 p{
+    font-family: "source" Sans Pro, sans-serif;
+    font-size: 1.5rem;
+}
+.stat3 h3{
+    font-family: kanit sans-serif;
+    font-size: 4.5rem;
+}
+.stat3 p{
+    font-family: "source" Sans Pro, sans-serif;
+    font-size: 1.5rem;
+}
+.stat4 h3{
+    font-family: kanit sans-serif;
+    font-size: 4.5rem;
+}
+.stat4 p{
+    font-family: "source" Sans Pro, sans-serif;
+    font-size: 1.5rem;
+}
+/* Website Design Development Section */
+
+.WebDesignText h2 {
+    font-size: 3rem;
+    font-family: kanit sans-serif;
+    color: #02b1af;
+}
+
+Text p {
+    font-size: 3rem;
+    align-items: center;
+    font-family: Roboto sans-serif;
+    margin-top: 4rem
+}
+.service-item{
+    display: flex;
+    align-items: center;
+}
+
+.service-item1 img {
+   height: 15rem;
+   width: auto;
+}
+
+.service-item1 h3 {
+    font-size: 1.5rem;
+    font-family: kanit sans-serif;
+}
+
+.service-item1 p {
+    font-size: 1rem;
+    font-family:"source" Sans Pro, sans-serif ;
+}
+
+.service-item2 img {
+    height: 15rem;
+    width: auto;
+ }
+ 
+ .service-item2 h3 {
+     font-size: 1.5rem;
+     font-family: kanit sans-serif;
+ }
+ 
+ .service-item2 p {
+     font-size: 1rem;
+     font-family:"source" Sans Pro, sans-serif ;
+ }
+
+ .service-item3 img {
+    height: 15rem;
+    width: auto;
+ }
+ 
+ .service-item3 h3 {
+     font-size: 1.5rem;
+     font-family: kanit  sans-serif;
+ }
+ 
+ .service-item3 p {
+     font-size: 1rem;
+     font-family:"source" Sans Pro, sans-serif ;
+ }
+ .service-item4 img {
+    height: 15rem;
+    width: auto;
+ }
+ 
+ .service-item4 h3 {
+     font-size: 1.5rem;
+     font-family:kanit sans-serif ;
+ }
+ 
+ .service-item4 p {
+     font-size: 1rem;
+     font-family:"source" Sans Pro, sans-serif ;
+ }
+/* Why Choose Us Section */
+
+
+.pattern h1 {
+    font-size: 1rem;
+    text-align: center;
+    font-family: kanit sans-serif;
+    color: red;
+}
+.pattern h2{
+    font-size: 2rem;
+    text-align: center;
+    font-family: kanit sans-serif;
+    color: #02b1af;
+}
+.pattern p{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: kanit sans-serif;
+}
+.reasons{
+    margin-right: 15rem;
+}
+.reason1{
+    display: flex;
+    margin-right: 14rem;
+}
+.reason1 i{
+    font-size: 1rem;
+    color: #ff6600;
+}
+.text h4{
+    font-size: 1.5rem;
+    font-family:kanit, sans-serif ; 
+    margin-left: 2rem
+}
+.text p{
+    font-size: 1.125rem;
+    font-family:"source" Sans Pro, sans-serif ;
+    align-items: center;
+}
+.reason2{
+    display: flex;
+    margin-right: 12rem;
+}
+.reason2 i{
+    font-size: 1rem;
+    color: #ff6600;
+    margin-top: 2rem;
+}
+.text2{
+    margin-left: 2rem;
+}
+.text2 h4{
+    font-size: 1.5rem;
+    font-family:kanit, sans-serif ;
+    margin-left: 2rem
+}
+.text2 p{
+    font-size: 1.125rem;
+    font-family:"source" Sans Pro, sans-serif ;
+}
+.text3{
+    margin-left: 2rem;
+}
+.reason3{
+    display: flex;
+    align-items: center;
+}
+.reason3 i{
+    font-size: 1rem;
+    color: #ff6600;
+    margin-left:1rem ;
+}
+.text3 h4{
+    font-size: 1.5rem;
+    font-family:kanit, sans-serif ;
+    margin-left: 2rem
+}
+.text3 p{
+    font-size: 1.125rem;
+    font-family:"source" Sans Pro, sans-serif ;
+}
+
+.text4{
+    margin-left: 2rem;
+}
+.reason4{
+    display: flex;
+    align-items: center;
+}
+.reason4 i{
+    font-size: 1rem;
+    color: #ff6600;
+}
+.text4 h4{
+    font-size: 1.5rem;
+    font-family:kanit, sans-serif ;
+    margin-left: 2rem
+}
+.text4 p{
+    font-size: 1.125rem;
+    font-family:"source" Sans Pro, sans-serif ;
+}
+.reason5{
+    display: flex;
+    align-items: center;
+}
+.reason5 i{
+    font-size: 1rem;
+    color: #ff6600;
+}
+.text5 h4{
+    font-size: 1.5rem;
+    font-family:kanit, sans-serif ;
+    margin-left: 2rem
+}
+.text5 p{
+    font-size: 1.125rem;
+    font-family:"source" Sans Pro, sans-serif ;
+}
+.reason6{
+    display: flex;
+    align-items: center;
+}
+.text6{
+    margin-left: 2rem;
+}
+.reason6 i{
+    font-size: 1rem;
+    color: #ff6600;
+}
+.text6 h4{
+    font-size: 1.5rem;
+    font-family:kanit, sans-serif ;
+    margin-left: 2rem
+}
+.text6 p{
+    font-size: 1.125rem;
+    font-family:"source" Sans Pro, sans-serif ;
+}
+.attachmentpicture img{
+    height: 15rem;
+}
+/* Testimonials Section */
+.TestimonialsText img {
+    border-radius: 50%;
+}
+
+.Testimonials h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #02b1af;
+}
+
+.testimonial p {
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 3rem;
+}
+
+/* Latest News Section */
+.latestNewsText h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: kanit sans-serif;
+}
+.latestNewsText h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-family: kanit sans-serif;
+}
+.latestNewsText p {
+    font-size: 2rem;
+    font-family: kanit sans-serif;
+    text-align: center;
+}
+
+.borderBox{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    height: 100%;
+}
+.borderBox img{
+    width: 100%;
+}
+.news-items {
+    display: flex;
+    justify-content: space-between;
+}
+.news-item1, .news-item2, .news-item3 {
+    text-align: center;
+}
+.borderBox h1 {
+    font-size: 1.875rem;
+     font-family: kanit sans-serif;
+}
+.borderBox h2 {
+    font-size: 1.875rem;
+     font-family: kanit sans-serif;
+}
+.borderBox h3 {
+    font-size: 1.875rem;
+     font-family: kanit sans-serif;
+}
+/* <footer> </footer> */
+
+.WebDesignTechContainer {
+    background-color: rgba(224, 200, 0.15, 150)(225, 225, 225, 0.875);
+    color: black;
+    font-family:"source" Sans Pro, sans-serif;
+    margin-top: 3rem;
+}
+.footer-branding img {
+    margin-bottom: 2rem;
+}
+
+.footer-branding p {
+    margin-bottom: 1rem;
+    color: black;
+    font-family: "source" Sans Pro, sans-serif;
+    font-size: 1rem;
+}
+
+.footer-social a {
+    color: black;
+    margin-right: 2rem;
+    font-size: 2rem;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: #1da1f2;
+}
+
+.footer-contact h3,
+.footer-column1 h3,
+.footer-column2 h3 {
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-family: Kanit, sans-serif;
+}
+
+.footer-contact input[type="email"] {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+/* .footer-contact input[type="email"]::placeholder {
+    color: #aaaaaa;
+} */
+
+.footer-contact i.fa-envelope {
+    position: absolute;
+    margin-top: 0.5rem;
+}
+ .footer-contact p{
+    margin-top: 5rem;
+    color: black;
+    font-size: 1rem;
+    font-family: "source"Sans Pro,sans-serif;
+} 
+
+.footer-column1 ul,
+.footer-column2 ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-column1{
+    font-family: kanit sans-serif;
+    font-size: 1.5rem;
+}
+.footer-column2{
+    font-family: kanit sans-serif;
+    font-size: 1.5rem;
+}
+
+.footer-column1 ul li a,
+.footer-column2 ul li a {
+    color: black;
+    font-family: Roboto sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column1 ul li a:hover,
+.footer-column2 ul li a:hover {
+    color: #1da1f2;
+}
+.copyrightsText h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.copyrightsText h4 {
+    color: black;
+    font-size: 1rem;
+    font-family: "source"Sans Pro,sans-serif;
+    margin-left: 2rem;
+    text-align: center;
+}
