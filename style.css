@@ -739,3 +739,20 @@ Text p {
     margin-left: 2rem;
     text-align: center;
 }
+
+/* For screens up to 992px */
+@media (max-width: 992px) {
+    .responsive-image {
+        width: 80%;  /* Scale the image to 80% of its container */
+        max-width: 600px; /* Adjust max width for medium screens */
+    }
+}
+
+/* For screens up to 576px */
+@media (max-width: 576px) {
+    .responsive-image {
+        width: 100%;  /* On small screens, let the image take full width */
+        max-width: 100%; /* Remove any max width constraint */
+    }
+}
+
